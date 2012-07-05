@@ -3,8 +3,7 @@
 <h2>アカウント</h2>
 <p>
     ユーザID:
-    <a href="<?php echo $base_urlp ?>/user/<?php echo $this->escape($user['user_
-    name']); ?>">
+    <a href="<?php echo $base_url ?>/user/<?php echo $this->escape($user['user_name']); ?>">
         <strong><?php echo $this->escape($user['user_name']); ?></strong>
     </a>
 </p>
